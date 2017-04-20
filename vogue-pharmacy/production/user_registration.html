@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>VOGUE Pharmaceutical's ERP  | </title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+    <!-- bootstrap-wysiwyg -->
+    <link href="../vendors/google-code-prettify/bin/prettify.min.css" rel="stylesheet">
+    <!-- Select2 -->
+    <link href="../vendors/select2/dist/css/select2.min.css" rel="stylesheet">
+    <!-- Switchery -->
+    <link href="../vendors/switchery/dist/switchery.min.css" rel="stylesheet">
+    <!-- starrr -->
+    <link href="../vendors/starrr/dist/starrr.css" rel="stylesheet">
+    <!-- bootstrap-daterangepicker -->
+    <link href="../vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!--<script>
+    
+    $(document).ready(function() {
+
+      $('#customer_name').hide();
+    
+    });
+
+    </script>-->
+
+    <script>
+
+    
+    $(document).ready(function() {
+
+
+
+      $('#assign_rights').hide();
+
+
+       $('#next').click(function(){
+
+        $('#assign_rights').show();
+        $('#user_details').hide();
+
+       });
+
+       $('#go_back').click(function(){
+
+        $('#assign_rights').hide();
+        $('#user_details').show();
+
+       });
+
+    });
+
+    </script>
+
+    <style type="text/css">
+      
+      input[type=number]::-webkit-inner-spin-button, 
+      input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none; 
+        margin: 0; 
+      }
+
+    </style>
+
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="index.html" class="site_title"><i class="fa fa-plus-square"></i> <span>VOGUE Pharmaceutical</span></a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <br />
+
+            <!-- sidebar menu -->
+             <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="index.html">Dashboard</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-line-chart"></i> Sales <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="recordsales.html">Record Sales</a></li>
+                      <li><a href="returnsolditems.html">Return Items </a></li>
+                      <li><a href="edit_sales.html">Edit / view Sales</a></li>
+                      <li><a href="create_customer.html">Customer Creation</a></li>
+                      <li><a href="accounts_recievable.html">View Receivables  </a></li>
+                      <li><a href="discount_config.html">Configure Discounts</a></li>
+                      <li><a href="sales_report.html">Sales Reports</a></li>
+                      <li><a href="interaction_info.html">Interaction Information</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-truck"></i> Supply Management <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="record_purchase.html">Record Purchased Items</a></li>
+                      <li><a href="return_purchaseitem.html">Return Purchased Items</a></li>
+                      <li><a href="#">Purchase Adjustment </a></li>
+                      <li><a href="purchase_order.html">Create Purchase Order</a></li>
+                      <li><a href="add_supplier.html">Add Suppliers</a></li>
+                      <li><a href="supplierproduct_config.html">Configure Suppliers Items </a></li>
+                      <li><a href="purchase_report.html">Extract Purchase Reports</a></li>
+                      <li><a href="purchase_payables.html">View Payables</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-money"></i> Financial Management <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li><a>Accounting<span class="fa fa-chevron-down"></span></a>
+                          <ul class="nav child_menu">
+                            <li class="sub_menu"><a href="level2.html">General journals </a></li>
+                            <li><a href="chartjs.html">Ledgers </a></li>
+                            <li><a href="chartjs2.html">Trial balance </a></li>
+                            <li><a href="morisjs.html">Income statement </a></li>
+                            <li><a href="echarts.html">Balance sheet </a></li>
+                            <li><a href="other_charts.html">Cash flow statement </a></li>
+                            <li><a href="echarts.html">Statement of equity</a></li>
+                          </ul>
+                        </li>
+                         <li><a>Fixed Asset Register<span class="fa fa-chevron-down"></span></a>
+                          <ul class="nav child_menu">
+                            <li class="sub_menu"><a href="level2.html">Fixed Asset Management </a></li>
+                            <li><a href="chartjs.html">Depreciation Management</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#level1_2">Receivable Management</a></li>
+                        <li><a href="#level1_2">Payable Management</a></li>
+                        <li><a href="#level1_2">Taxation Management</a></li>
+                        <li><a>Treasury <span class="fa fa-chevron-down"></span></a>
+                          <ul class="nav child_menu">
+                            <li class="sub_menu"><a href="level2.html">Cash Management</a></li>
+                            <li><a href="chartjs.html">Debt Management</a></li>
+                          </ul>
+                        </li>
+                    </ul>
+                  </li>         
+                  <li><a><i class="fa fa-circle-o"></i> Inventory Management <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="product_registration.html">Product Registration</a></li>
+                      <li><a href="stock_registration.html">Stock Registration</a></li>
+                      <li><a href="stock_search.html">Stock Search</a></li>
+                      <li><a href="stock_adjustment.html">Stock adjustment</a></li>
+                      <li><a href="group_items.html">Item Group</a></li>
+                       <li><a>Expiry Management<span class="fa fa-chevron-down"></span></a>
+                          <ul class="nav child_menu">
+                            <li><a href="loc_transfer.html">Location Transfer</a></li>
+                            <li><a href="inventory_reports.html">Inventory Reports </a></li>
+                          </ul>
+                        </li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-user"></i>User Management  <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="user_registration.html">User Registration</a></li>
+                      <li><a href="rights_management.html">Rights Management</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-users"></i> Human Resource Management <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="employee_payroll.html">Payroll</a></li>
+                      <li><a href="employee_training.html">Training</a></li>
+                      <li><a href="leave_management.html">Leave Management</a></li>
+                      <li><a href="#">Benefits</a></li>
+                      <li><a href="performance_evaluation.html">Performance Evaluation </a></li>
+                      <li><a>Recruitment<span class="fa fa-chevron-down"></span></a>
+                          <ul class="nav child_menu">
+                            <li><a href="job_postings.html">All Job Posts</a></li>
+                            <li><a href="new_job.html">Create New Job Post </a></li>
+                          </ul>
+                        </li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-tasks"></i>  Customer Service Management <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="customer_mangement.html">Customer Management</a></li>
+                      <li><a href="point_accumulation.html">Point Accumulation System</a></li>
+                      <li><a href="prescription_management.html">Prescription management</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+            <!-- /sidebar menu -->
+
+            <!-- /menu footer buttons -->
+            <div class="sidebar-footer hidden-small">
+              <a data-toggle="tooltip" data-placement="top" title="Settings">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Lock">
+                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+              </a>
+            </div>
+            <!-- /menu footer buttons -->
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav>
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+            <div class="page-title">
+              <div class="title_left">
+                <h3>New User Registration</h3>
+              </div>
+
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="row" style="padding-top:50px;">       <!-- row starts -->
+
+            <!-- user registration div starts -->
+
+             <div class="col-md-6 col-sm-6 col-xs-12" style="margin-left: 300px;" id="user_details">        
+               <div class="x_panel">
+                  <div class="x_title">
+                    <h2> New User Details </h2>
+                    <div class="clearfix"></div>
+                  </div>
+                  <form class="form-horizontal form-label-left">               
+
+                      <div class="form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12" id="real_name">Real Name <span class="required">*</span>
+                        </label>
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                          <input type="text" required="required" class="form-control">
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" id="user_id">User ID <span class="required">*</span>
+                        </label>
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                          <input type="text" required="required" class="form-control">
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" id="login_name">Login Name <span class="required">*</span>
+                        </label>
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                           <input type="text" required="required" class="form-control">
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" id="pass">Password <span class="required">*</span>
+                        </label>
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                          <input type="Password" required="required" class="form-control">
+                        </div>
+                      </div>
+                      
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" id="confirm_pass">Confirm Password<span class="required">*</span>
+                        </label>
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                          <input type="Password" required="required" class="form-control">
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" id="email">Email <span class="required">*</span>
+                        </label>
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                          <input type="Email" required="required" class="form-control">
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" id="mob_no">Mobile No. <span class="required">*</span>
+                        </label>
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                          <input type="number" min="0" required="required" class="form-control">
+                        </div>
+                      </div>
+
+                      <div class="ln_solid"></div>
+
+                      <div class="form-group pull-right">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                          
+                          <button type="submit" id="next" class="btn btn-success">Next</button>
+                          
+                        </div>
+                      </div>
+                    
+                    </form>
+               </div>
+             </div>                        <!-- user registration div ends --> 
+
+              <!-- user registration div starts -->
+
+             <div class="col-md-6 col-sm-6 col-xs-12" style="margin-left: 300px;display:none;" id="assign_rights">        
+               <div class="x_panel">
+                  <div class="x_title">
+                    <h2>New User Rights </h2>
+                    <div class="clearfix"></div>
+                  </div>
+                  <form class="form-horizontal form-label-left">
+
+                     <div class="checkbox">
+                      <label><input type="checkbox" value="" required="required">Sale Item</label>
+                     </div>
+                     <div class="checkbox">
+                      <label><input type="checkbox" value="">Sale Item (Bill Cancellation)</label>
+                     </div>
+                     <div class="checkbox">
+                      <label><input type="checkbox" value="" >Sale Item (Discount)</label>
+                     </div>
+                     <div class="checkbox">
+                      <label><input type="checkbox" value="">Bill Payement</label>
+                     </div>
+                     <div class="checkbox">
+                      <label><input type="checkbox" value="" >Bill Payement (Report)</label>
+                     </div>
+                     <div class="checkbox">
+                      <label><input type="checkbox" value="" >Sale Reports</label>
+                     </div>
+                     <div class="checkbox">
+                      <label><input type="checkbox" value="" >Add Customer</label>
+                     </div>
+                     <div class="checkbox">
+                      <label><input type="checkbox" value="" >Account Recievables</label>
+                     </div>
+
+                     <div class="ln_solid"></div>
+
+                      <div class="form-group">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                          
+                          <button type="submit" class="btn btn-primary" id="go_back">Go Back</button>
+                          <button type="submit" class="btn btn-success pull-right">Create User</button>
+                          
+                        </div>
+                      </div>
+
+                    </form>
+
+               </div>
+             </div>                        <!-- user registration div ends -->
+
+             
+            </div>                  <!-- row ends -->
+
+            
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right hidden-xs">
+           <b>Version</b> 1.0
+          </div>
+            <strong>Copyright &copy; 2016-2017 </strong> 
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- validator -->
+    <script src="../vendors/validator/validator.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+  
+  </body>
+</html>

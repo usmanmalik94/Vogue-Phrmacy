@@ -1,0 +1,257 @@
+<table class="table table-bordered table-striped">
+               <thead >
+                  <tr>
+                   <th>Serial No.</th>
+                   <th>Product</th>
+                   <th>Bonus</th>
+                   <th>Qty</th>
+                   <th>Batch No.</th>
+                   <th>Expiry Date</th>
+                   <th>Presc. Days</th>
+                   <th>Location</th>
+                   <th>Discount</th>
+                   <th>Price</th>
+                   <th>Amount</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                    <td><input type="number" class="form-control" min="1" style="width:60px;"></td>
+                    <td><input type="text" class="form-control" style="width: 180px;"></td>
+                    <td><input type="text" class="form-control"></td>
+                    <td><input type="number" class="form-control" min="0"></td>
+                    <td><input type="number" class="form-control" min="0"></td>
+                    <td><input type="date" class="form-control"></td>
+                    <td><input type="number" class="form-control" min="0"></td>
+                    <td><input type="text" class="form-control" style="width: 150px;"></td>
+                    <td><input type="number" class="form-control" min="0"></td>
+                    <td><input type="number" class="form-control" min="0"></td>
+                    <td><input type="number" class="form-control" min="0"></td>
+                  </tr>
+                  <tr>
+                    <td><input type="number" class="form-control" min="1" style="width:60px;"></td>
+                    <td><input type="text" class="form-control" style="width: 180px;"></td>
+                    <td><input type="text" class="form-control"></td>
+                    <td><input type="number" class="form-control" min="0"></td>
+                    <td><input type="number" class="form-control" min="0"></td>
+                    <td><input type="date" class="form-control"></td>
+                    <td><input type="number" class="form-control" min="0"></td>
+                    <td><input type="text" class="form-control"></td>
+                    <td><input type="number" class="form-control" min="0"></td>
+                    <td><input type="number" class="form-control" min="0"></td>
+                    <td><input type="number" class="form-control" min="0"></td>
+                  </tr>
+                  <tr>
+                    <td><input type="number" class="form-control" min="1" style="width:60px;"></td>
+                    <td><input type="text" class="form-control" style="width: 180px;"></td>
+                    <td><input type="text" class="form-control"></td>
+                    <td><input type="number" class="form-control" min="0"></td>
+                    <td><input type="number" class="form-control" min="0"></td>
+                    <td><input type="date" class="form-control"></td>
+                    <td><input type="number" class="form-control" min="0"></td>
+                    <td><input type="text" class="form-control"></td>
+                    <td><input type="number" class="form-control" min="0"></td>
+                    <td><input type="number" class="form-control" min="0"></td>
+                    <td><input type="number" class="form-control" min="0"></td>
+                  </tr>
+               </tbody>
+              </table>
+
+
+
+
+ <tr data-toggle="collapse" data-target="#demo6" class="accordion-toggle">
+                                              <td><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span></button></td>
+                                        <td><input type="number" class="form-control" min="1" style="width:70px;"></td>
+                                        <td><input type="text" class="form-control" style="width: 250px;"></td>
+                                        <td><input type="number" class="form-control" min="1" style="width:100px;"></td>
+                                        <td><input type="number" class="form-control" min="1" style="width:100px;"></td>
+                                        <td> <input type="number" class="form-control" min="1" style="width:100px;"></td>
+                                        <td> <input type="number" class="form-control" min="1" style="width:100px;"></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td colspan="12" class="hiddenRow">
+                                        <div class="accordian-body collapse" id="demo6"> 
+                                          <table class="table table-striped">
+                                                  <thead>
+                                                    <tr>
+                                                       <th>Bonus</th>
+                                                       <th>Batch No.</th>
+                                                       <th>Expiry Date</th>
+                                                       <th>Presc. Days</th>
+                                                       <th>Location</th>
+                                                    </tr>
+                                                  </thead>
+                                                  <tbody>
+                                                    <tr>
+                                                      <td><input type="text" class="form-control"></td>
+                                                      <td><input type="number" class="form-control" min="0"></td>
+                                                      <td><input type="date" class="form-control"></td>
+                                                      <td><input type="number" class="form-control" min="1"></td>
+                                                      <td><input type="text" class="form-control"></td>
+                                                    </tr>
+                                                    
+                                                 
+                                                
+                                                  </tbody>
+                                            </table>
+                                          
+                                          </div> </td>
+                                    </tr>
+                                    <tr data-toggle="collapse" data-target="#demo7" class="accordion-toggle">
+                                              <td><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span></button></td>
+                                        <td><input type="number" class="form-control" min="1" style="width:70px;"></td>
+                                        <td><input type="text" class="form-control" style="width: 250px;"></td>
+                                        <td><input type="number" class="form-control" min="1" style="width:100px;"></td>
+                                        <td><input type="number" class="form-control" min="1" style="width:100px;"></td>
+                                        <td> <input type="number" class="form-control" min="1" style="width:100px;"></td>
+                                        <td> <input type="number" class="form-control" min="1" style="width:100px;"></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td colspan="12" class="hiddenRow">
+                                        <div class="accordian-body collapse" id="demo7"> 
+                                          <table class="table table-striped">
+                                                  <thead>
+                                                    <tr>
+                                                       <th>Bonus</th>
+                                                       <th>Batch No.</th>
+                                                       <th>Expiry Date</th>
+                                                       <th>Presc. Days</th>
+                                                       <th>Location</th>
+                                                    </tr>
+                                                  </thead>
+                                                  <tbody>
+                                                    <tr>
+                                                      <td><input type="text" class="form-control"></td>
+                                                      <td><input type="number" class="form-control" min="0"></td>
+                                                      <td><input type="date" class="form-control"></td>
+                                                      <td><input type="number" class="form-control" min="1"></td>
+                                                      <td><input type="text" class="form-control"></td>
+                                                    </tr>
+                                                    
+                                                 
+                                                
+                                                  </tbody>
+                                            </table>
+                                          
+                                          </div> </td>
+                                    </tr>
+                                    <tr data-toggle="collapse" data-target="#demo8" class="accordion-toggle">
+                                              <td><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span></button></td>
+                                        <td><input type="number" class="form-control" min="1" style="width:70px;"></td>
+                                        <td><input type="text" class="form-control" style="width: 250px;"></td>
+                                        <td><input type="number" class="form-control" min="1" style="width:100px;"></td>
+                                        <td><input type="number" class="form-control" min="1" style="width:100px;"></td>
+                                        <td> <input type="number" class="form-control" min="1" style="width:100px;"></td>
+                                        <td> <input type="number" class="form-control" min="1" style="width:100px;"></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td colspan="12" class="hiddenRow">
+                                        <div class="accordian-body collapse" id="demo8"> 
+                                          <table class="table table-striped">
+                                                  <thead>
+                                                    <tr>
+                                                       <th>Bonus</th>
+                                                       <th>Batch No.</th>
+                                                       <th>Expiry Date</th>
+                                                       <th>Presc. Days</th>
+                                                       <th>Location</th>
+                                                    </tr>
+                                                  </thead>
+                                                  <tbody>
+                                                    <tr>
+                                                      <td><input type="text" class="form-control"></td>
+                                                      <td><input type="number" class="form-control" min="0"></td>
+                                                      <td><input type="date" class="form-control"></td>
+                                                      <td><input type="number" class="form-control" min="1"></td>
+                                                      <td><input type="text" class="form-control"></td>
+                                                    </tr>
+                                                    
+                                                 
+                                                
+                                                  </tbody>
+                                            </table>
+                                          
+                                          </div> </td>
+                                    </tr>
+                                    <tr data-toggle="collapse" data-target="#demo9" class="accordion-toggle">
+                                              <td><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span></button></td>
+                                        <td><input type="number" class="form-control" min="1" style="width:70px;"></td>
+                                        <td><input type="text" class="form-control" style="width: 250px;"></td>
+                                        <td><input type="number" class="form-control" min="1" style="width:100px;"></td>
+                                        <td><input type="number" class="form-control" min="1" style="width:100px;"></td>
+                                        <td> <input type="number" class="form-control" min="1" style="width:100px;"></td>
+                                        <td> <input type="number" class="form-control" min="1" style="width:100px;"></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td colspan="12" class="hiddenRow">
+                                        <div class="accordian-body collapse" id="demo9"> 
+                                          <table class="table table-striped">
+                                                  <thead>
+                                                    <tr>
+                                                       <th>Bonus</th>
+                                                       <th>Batch No.</th>
+                                                       <th>Expiry Date</th>
+                                                       <th>Presc. Days</th>
+                                                       <th>Location</th>
+                                                    </tr>
+                                                  </thead>
+                                                  <tbody>
+                                                    <tr>
+                                                      <td><input type="text" class="form-control"></td>
+                                                      <td><input type="number" class="form-control" min="0"></td>
+                                                      <td><input type="date" class="form-control"></td>
+                                                      <td><input type="number" class="form-control" min="1"></td>
+                                                      <td><input type="text" class="form-control"></td>
+                                                    </tr>
+                                                    
+                                                 
+                                                
+                                                  </tbody>
+                                            </table>
+                                          
+                                          </div> </td>
+                                    </tr>
+                                    <tr data-toggle="collapse" data-target="#demo10" class="accordion-toggle">
+                                              <td><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span></button></td>
+                                        <td><input type="number" class="form-control" min="1" style="width:70px;"></td>
+                                        <td><input type="text" class="form-control" style="width: 250px;"></td>
+                                        <td><input type="number" class="form-control" min="1" style="width:100px;"></td>
+                                        <td><input type="number" class="form-control" min="1" style="width:100px;"></td>
+                                        <td> <input type="number" class="form-control" min="1" style="width:100px;"></td>
+                                        <td> <input type="number" class="form-control" min="1" style="width:100px;"></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td colspan="12" class="hiddenRow">
+                                        <div class="accordian-body collapse" id="demo10"> 
+                                          <table class="table table-striped">
+                                                  <thead>
+                                                    <tr>
+                                                       <th>Bonus</th>
+                                                       <th>Batch No.</th>
+                                                       <th>Expiry Date</th>
+                                                       <th>Presc. Days</th>
+                                                       <th>Location</th>
+                                                    </tr>
+                                                  </thead>
+                                                  <tbody>
+                                                    <tr>
+                                                      <td><input type="text" class="form-control"></td>
+                                                      <td><input type="number" class="form-control" min="0"></td>
+                                                      <td><input type="date" class="form-control"></td>
+                                                      <td><input type="number" class="form-control" min="1"></td>
+                                                      <td><input type="text" class="form-control"></td>
+                                                    </tr>
+                                                    
+                                                 
+                                                
+                                                  </tbody>
+                                            </table>
+                                          
+                                          </div> </td>
+                                    </tr>
